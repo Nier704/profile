@@ -11,12 +11,7 @@ export const DataContextProvider = ({ children }) => {
    async function getGitData(){
       try {
          const url = 'https://api.github.com/users/HIDE-SX';
-         const git_token = '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';
-         const response = await axios.get(url, {
-            headers: {
-               Authorization: `Bearer ${git_token}`
-            }
-         });
+         const response = await axios.get(url);
          setGitData(response.data);
       } catch (error) {
          console.error(error);
