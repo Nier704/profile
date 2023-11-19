@@ -22,14 +22,14 @@ const App = () => {
 
   return (
     <>
-      {loadingScreen && <LoadingScreen />}
-      {showContain && <div className="containerPrincipal">
-        <Banner />
-        <NavBar />
-        <DataContextProvider>
+      <DataContextProvider>
+        {loadingScreen && <LoadingScreen />}
+        {showContain && <div className="containerPrincipal">
+          <Banner />
+          <NavBar />
           <Outlet />
-        </DataContextProvider>
-      </div>}
+        </div>}
+      </DataContextProvider>
     </>
   )
 }

@@ -43,8 +43,6 @@ export const Social = () => {
       setOpacity(1);
       setMargin('20');
     },10);
-
-    getGitData();
   }, []);
 
   return (

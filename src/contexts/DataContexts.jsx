@@ -6,11 +6,11 @@ export const DataContext = createContext();
 
 export const DataContextProvider = ({ children }) => {
 
-   const [gitData, setGitData] = useState();
+   const [gitData, setGitData] = useState({});
 
    async function getGitData(){
       try {
-         const url = 'https://api.github.com/users/HIDE-SX';
+         const url = 'https://api.github.com/users/Nier704';
          const response = await axios.get(url);
          setGitData(response.data);
       } catch (error) {
