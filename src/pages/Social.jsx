@@ -122,7 +122,7 @@ export const BioGitProfile = ({gitData}) => {
     <a
     target="_blank" 
     rel="noopener noreferrer"
-    href="https://github.com/HIDE-SX">
+    href="https://github.com/Nier704">
       <img
         className='w-[200px] transition duration-500 hover:opacity-[.6]'
         src={gitData.avatar_url}
@@ -219,7 +219,7 @@ export const BioFavoriteMusic = () => {
 export const BioTitle = () => {
   return <div className='flex justify-center items-center w-[280px] h-[200px] border'>
     <div className='flex flex-col gap-2 text-center'>
-      <div className='text-2xl text-cyan-500'>HIDE-SX</div>
+      <div className='text-2xl text-cyan-500'>Nier</div>
       <div className='text-sm flex gap-2 justify-center'>
         <a 
           href="https://learn.microsoft.com/en-us/dotnet/csharp/" 
