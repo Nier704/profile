@@ -31,7 +31,7 @@ const Banner = () => {
           opacity: opacity
         }}
         className='hide glitchFont'>
-        HIDE-SX
+        Nier
       </div>
     </div>
   )
