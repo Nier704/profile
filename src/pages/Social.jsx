@@ -100,8 +100,8 @@ export const Technologies = () => {
 
 export const BioSocialMedias = () => {
   return <div className='flex h-full mt-2 gap-1'>
-    <Media src={github_icon} link="https://github.com/HIDE-SX" />
-    <Media src={twitch_icon} link="https://www.twitch.tv/hide704" />
+    <Media src={github_icon} link="https://github.com/Nier704" />
+    <Media src={twitch_icon} link="https://www.twitch.tv/nier704" />
     <Media src={instagram_icon} link="https://www.instagram.com/lore_jpg/" />
   </div>
 }
